@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Responsive gallery of my favorite things</title>  
+</head>
+<body> 
+
+    <header> 
+        <h1>Responsive Size showcase</h1>
+        <p>Exploring how images scale from tiny to large across different screens</p>
+    </header>
+
+    <main>
+        <hr>
+
+      
+        <section>  
+            <h2>Category 1: Animals</h2>  
+            <picture>
+                
+                <source media="(min-width: 769px)" srcset="lion.webp">
+                 
+                 <source media="(min-width:426px )" srcset="Belgian_Malinois.webp">
+              
+                <source media="(min-width: 321px)" srcset="cat.webp">
+               
+                <img src="parrot.webp" alt="Pets tiny to large">
+            </picture>
+        </section>    
+
+
+        <hr>
+
+
+        <section>
+            <h2>Category 2: Games</h2>
+            <picture>
+              
+                <source media="(min-width: 769px)" srcset="Football.webp">
+               
+                <source media="(min-width:426px )" srcset="cornhole.webp">
+               
+                <source media="(min-width: 321px)" srcset="chess.webp">
+                
+                <img src="blackjack.webp" alt="Games tiny to large">
+            </picture>
+        </section>
+
+        <hr>
+
+
+        <section>
+            <h2>Category 3: Technologie</h2>
+            <picture>
+                
+                <source media="(min-width:769px )" srcset="TV.webp">
+                
+                <source media="(min-width: 426px)" srcset="Consoles.webp">
+                 
+                <source media="(min-width: 321px)" srcset="phone.webp">
+              
+                <img src="earbuds.webp" alt="Technologie small to large">
+            </picture>
+        </section>
+
+
+
+        <hr>
+    </main>
+
+    <footer>
+        <p><em>© 2026 Axel Hernandez</em></p>
+    </footer>
+
+</body>
+</html>
